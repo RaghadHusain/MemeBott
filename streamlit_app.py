@@ -9,7 +9,7 @@ st.set_page_config(page_title="Meme Reply Bot", page_icon="😂")
 st.title("😂 Meme Reply Bot")
 st.caption("Tell me what happened. I'll reply with memes.")
 
-if "OPENAI_API_KEY" not in st.secrets:
+if "OPEN_AI_KEY" not in st.secrets:
     st.error(
         "No `OPENAI_API_KEY` found. Add it in **Settings → Secrets** "
         "on Streamlit Cloud, or in `.streamlit/secrets.toml` locally."
